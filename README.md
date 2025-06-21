@@ -1,5 +1,27 @@
 # macOS `.gitignore`
 
+<p>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" style="vertical-align:middle; margin-right:8px;" />
+  <img src="https://img.shields.io/badge/macOS-Compatible-blue?logo=apple&logoColor=white" alt="macOS compatible" style="vertical-align:middle; margin-right:8px;" />
+  <img src="https://img.shields.io/badge/Template-Repository-success?logo=github" alt="GitHub Template" style="vertical-align:middle; margin-right:8px;" />
+  <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20on-macOS-blue?logo=apple" alt="Made with macOS" style="vertical-align:middle; margin-right:8px;" />
+  <img src="https://img.shields.io/badge/Unofficial_Template_for_macOS-grey?logo=apple" alt="Unofficial Template" style="vertical-align:middle;" />
+</p>
+
+## 📖 Table of Contents
+
+- [macOS `.gitignore`](#macos-gitignore)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [🤓 Overview](#-overview)
+  - [🧾 Use Case](#-use-case)
+  - [📄 Contents of `.gitignore`](#-contents-of-gitignore)
+  - [✅ Files You Can Still Track](#-files-you-can-still-track)
+  - [📦 How to Use](#-how-to-use)
+  - [📜 Licence](#-licence)
+  - [🙋‍♂️ Contributions](#️-contributions)
+
+## 🤓 Overview
+
 A simple `.gitignore` template optimised for macOS users who work primarily with Word, Excel, and Affinity applications. This setup excludes system files, temporary backups, and autosaves, while keeping your main project files (`.docx`, `.xlsx`, `.afphoto`, etc.) safely tracked in Git.
 
 ## 🧾 Use Case
