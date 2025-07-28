@@ -1,5 +1,7 @@
 # macOS `.gitignore`
 
+---
+
 <p>
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" style="vertical-align:middle; margin-right:8px;" />
   <img src="https://img.shields.io/badge/macOS-Compatible-blue?logo=apple&logoColor=white" alt="macOS compatible" style="vertical-align:middle; margin-right:8px;" />
@@ -7,6 +9,8 @@
   <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20on-macOS-blue?logo=apple" alt="Made with macOS" style="vertical-align:middle; margin-right:8px;" />
   <img src="https://img.shields.io/badge/Unofficial_Template_for_macOS-grey?logo=apple" alt="Unofficial Template" style="vertical-align:middle;" />
 </p>
+
+---
 
 ## 📖 Table of Contents
 
@@ -16,65 +20,82 @@
   - [🧾 Use Case](#-use-case)
   - [📄 Contents of `.gitignore`](#-contents-of-gitignore)
   - [✅ Files You Can Still Track](#-files-you-can-still-track)
-  - [📦 How to Use](#-how-to-use)
-  - [📜 Licence](#-licence)
-  - [🙋‍♂️ Contributions](#️-contributions)
+  - [📦 Installation](#-installation)
+  - [🤝 Contributing](#-contributing)
+  - [📄 Licence](#-licence)
+  - [👤 Author](#-author)
+
+---
 
 ## 🤓 Overview
 
-A simple `.gitignore` template optimised for macOS users who work primarily with Word, Excel, and Affinity applications. This setup excludes system files, temporary backups, and autosaves, while keeping your main project files (`.docx`, `.xlsx`, `.afphoto`, etc.) safely tracked in Git.
+A simple `.gitignore` template optimised for macOS users working primarily with Word, Excel, and Affinity apps. It excludes system files, temporary backups, and autosaves, while keeping your main project files (such as `.docx`, `.xlsx`, `.afphoto`) tracked in Git.
+
+---
 
 ## 🧾 Use Case
 
-This is ideal if:
+This template is ideal if you:
 
-- You're creating non-code projects with Markdown, documents, or images.
-- You use Git to version notes, docs, or artwork.
-- You want to avoid polluting your commits with `.DS_Store` and temp files.
+- Create non-code projects using Markdown, documents, or images.
+- Use Git to version notes, documentation, or artwork.
+- Want to avoid cluttering commits with `.DS_Store` and temporary files.
+
+---
 
 ## 📄 Contents of `.gitignore`
 
-This template covers:
+This template excludes:
 
 - **macOS system files**  
-  `.DS_Store`, `._*`, `.AppleDouble`, `.Spotlight-V100`, etc.
+  `.DS_Store`, `._*`, `.AppleDouble`, `.Spotlight-V100`, and others.
 
 - **Temporary and backup files**  
   `*.tmp`, `*.bak`, `*~`, `*.swp`, etc.
 
-- **Microsoft Office temp files**  
+- **Microsoft Office temporary files**  
   `~$*`, `*.wbk`, `*.xlk`, etc.
 
-- **Affinity autosave/preview files**  
-  `*.autosave`, `*.afdesign-preview`, etc.
-
-## ✅ Files You Can Still Track
-
-This `.gitignore` **does not exclude** the following, so they’ll still be tracked in Git:
-
-- `.docx`, `.xlsx`
-- `.afphoto`, `.afdesign`, `.afpub`
-- `.md`, `.jpg`, `.png`, `.pdf`, etc.
-
-## 📦 How to Use
-
-1. Copy the contents of [`macos.gitignore`](./macos.gitignore) into your project's `.gitignore` file.
-2. If you already committed some ignored files, run:
-
-    ```bash
-    git rm -r --cached .
-    git add .
-    git commit -m "Apply .gitignore"
-    ```
-
-## 📜 Licence
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🙋‍♂️ Contributions
-
-Suggestions or additions are welcome, especially if you use other macOS-native apps with known temp file formats.
+- **Affinity autosave and preview files**  
+  `*.autosave`, `*.afdesign-preview`, and similar.
 
 ---
 
-Made with 💻 on macOS by [Karl Horning](https://github.com/Karl-Horning)
+## ✅ Files You Can Still Track
+
+This `.gitignore` does **not** exclude the following, so these will remain tracked:
+
+- `.docx`, `.xlsx`
+- `.afphoto`, `.afdesign`, `.afpub`
+- `.md`, `.jpg`, `.png`, `.pdf`, and other common document/image formats
+
+---
+
+## 📦 Installation
+
+1. Copy the contents of [`macos.gitignore`](./macos.gitignore) into your project's `.gitignore` file.  
+2. If you've already committed files you want ignored, run:
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m "Apply .gitignore"
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome, especially if you use other macOS-native apps with known temporary file formats.
+
+---
+
+## 📄 Licence
+
+MIT © 2025 Karl Horning
+
+---
+
+## 👤 Author
+
+Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
