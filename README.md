@@ -12,28 +12,28 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [macOS `.gitignore`](#macos-gitignore)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Overview](#-overview)
-  - [🧾 Use Case](#-use-case)
-  - [📄 Contents of `.gitignore`](#-contents-of-gitignore)
-  - [✅ Files You Can Still Track](#-files-you-can-still-track)
-  - [📦 Installation](#-installation)
-  - [🤝 Contributing](#-contributing)
-  - [📄 Licence](#-licence)
-  - [👤 Author](#-author)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Use Case](#use-case)
+  - [Contents of `.gitignore`](#contents-of-gitignore)
+  - [Files You Can Still Track](#files-you-can-still-track)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [Licence](#licence)
+  - [Author](#author)
 
 ---
 
-## 🤓 Overview
+## Overview
 
 A simple `.gitignore` template optimised for macOS users working primarily with Word, Excel, and Affinity apps. It excludes system files, temporary backups, and autosaves, while keeping your main project files (such as `.docx`, `.xlsx`, `.afphoto`) tracked in Git.
 
 ---
 
-## 🧾 Use Case
+## Use Case
 
 This template is ideal if you:
 
@@ -43,7 +43,7 @@ This template is ideal if you:
 
 ---
 
-## 📄 Contents of `.gitignore`
+## Contents of `.gitignore`
 
 This template excludes:
 
@@ -61,7 +61,7 @@ This template excludes:
 
 ---
 
-## ✅ Files You Can Still Track
+## Files You Can Still Track
 
 This `.gitignore` does **not** exclude the following, so these will remain tracked:
 
@@ -71,7 +71,7 @@ This `.gitignore` does **not** exclude the following, so these will remain track
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Copy the contents of [`macos.gitignore`](./macos.gitignore) into your project's `.gitignore` file.  
 2. If you've already committed files you want ignored, run:
@@ -84,18 +84,18 @@ git commit -m "Apply .gitignore"
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests and suggestions are welcome, especially if you use other macOS-native apps with known temporary file formats.
 
 ---
 
-## 📄 Licence
+## Licence
 
 MIT © 2025 Karl Horning
 
 ---
 
-## 👤 Author
+## Author
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
