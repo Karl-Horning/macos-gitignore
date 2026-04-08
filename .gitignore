@@ -25,7 +25,6 @@
 ~$*
 *.wbk         # Word backup
 *.xlk         # Excel backup
-*.tmp         # Office temp
 *.lock        # Office/other file lock indicators
 
 # Affinity autosave/backup (safe to ignore)
