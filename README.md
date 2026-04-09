@@ -1,9 +1,6 @@
 # macOS `.gitignore`
 
-![MIT License](https://img.shields.io/badge/License-MIT-green)
-![macOS compatible](https://img.shields.io/badge/macOS-Compatible-blue?logo=apple&logoColor=white)
-
-A `.gitignore` template for macOS users working with Word, Excel, and Affinity apps. Excludes system files, temporary backups, and autosaves while keeping your actual project files tracked.
+A `.gitignore` template for macOS users working with Word, Excel, and Affinity apps. Excludes system files, temporary backups, and autosaves.
 
 ## Use case
 
@@ -29,6 +26,12 @@ git rm -r --cached .
 git add .
 git commit -m "Apply .gitignore"
 ```
+
+## Contributing
+
+To report an issue or suggest an addition, open an [issue](https://github.com/Karl-Horning/macos-gitignore/issues).
+
+Pull requests are welcome. Keep changes focused—one concern per PR.
 
 ## Licence
 
