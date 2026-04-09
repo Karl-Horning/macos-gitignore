@@ -25,7 +25,7 @@
 ~$*
 *.wbk         # Word backup
 *.xlk         # Excel backup
-*.lock        # Office/other file lock indicators — broad, review before use in code projects
+*.lock        # Office/other file lock indicators—broad, review before use in code projects
 
 # Affinity Designer, Photo, and Publisher autosave files
 *.autosave
