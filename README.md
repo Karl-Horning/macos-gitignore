@@ -33,6 +33,6 @@ To report an issue or suggest an addition, open an [issue](https://github.com/Ka
 
 Pull requests are welcome. Keep changes focused—one concern per PR.
 
-## Licence
+## License
 
-MIT © 2025 [Karl-Horning](https://github.com/Karl-Horning)
+Released under the [MIT License](./LICENSE) by [Karl Horning](https://github.com/Karl-Horning).
